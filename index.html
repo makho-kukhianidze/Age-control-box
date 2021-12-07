@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="main-container">
+        <div class="first-main-box">
+            <div class="first-box">
+                <div class="center" id="center">
+                    <div>
+                        <h1 id="mainTitle" >is this content for you?</h1>
+                    </div>
+                    <div class="login-hidden" id="login-hidden">
+                    <label for="userName">Name:
+                        <input type="text" id="userName" name="userName" placeholder="write your name">
+                    </label>
+                    <label for="userAge">Your age:
+                        <input type="number" id="userAge" name="userAge" placeholder="write your age">
+                    </label>
+                    <div>
+                        <input type="button" class="button" value="check" onclick="youCanSeeOrNot()" />
+                    </div>
+                    </div>
+                </div>
+            </div>
+            <div class="Second-box" id="Second-box">
+                <p id="allowed"></p>
+                <p id="text"></p>
+                <a href="index.html" id="goBack" class="goBack">Go back</a>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="js/main.js"></script>
+
+</html>
+

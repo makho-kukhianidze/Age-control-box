@@ -1,0 +1,94 @@
+body{
+    background-image: url("../image/casino.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+.main-container{
+    box-sizing: border-box;
+}
+
+.first-main-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.first-box{
+    background-color: rgb(156 171 255 / 80%);
+    margin-top: 50px;
+    text-align: center;
+}
+
+.Second-box{
+    background-color: rgb(156 171 255 / 80%);
+    width: 300px;
+    padding: 15px;
+}
+
+#image{
+    width: 400px;
+    height: 400px;
+}
+
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 300px;
+    padding: 15px;
+}
+
+input{
+    padding: 5px 2px;
+    margin: 6px;
+    width: 180px;
+    outline: none;
+}
+
+.button{
+    width: 90px;
+    border: none;
+    padding: 6px;
+    background: #3f51b5;
+    color: white;
+    cursor: pointer;
+}
+
+.button:hover{
+    background: #3142a1;
+}
+
+p{
+    padding: 12px;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+#userName{
+    margin-right: -14px;
+}
+.login-hidden{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.goBack{
+    display: none;
+    color: white;
+    font-weight: 900;
+    text-decoration: none;
+    background: #7ad87e;
+    text-align: center;
+    padding: 12px;
+}
+
+.goBack:hover{
+
+    background: #68c26d;
+
+}
